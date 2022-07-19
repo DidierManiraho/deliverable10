@@ -24,6 +24,7 @@
   function capital() {
     document.getElementById("textarea1").style.textTransform = "capitalize";
   }
-  function clear() {
+  function clean() {
     document.getElementById("textarea1").value = "";
+    
   }
