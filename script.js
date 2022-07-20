@@ -26,5 +26,9 @@
   }
   function clean() {
     document.getElementById("textarea1").value = "";
+    document.getElementById("textarea1").style.fontWeight = "";
+    document.getElementById("textarea1").style.fontStyle = "";
+    document.getElementById("textarea1").style.textTransform = "";
+    document.getElementById("textarea1").style.textAlign = "";
     
   }
